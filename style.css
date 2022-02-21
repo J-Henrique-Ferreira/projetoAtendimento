@@ -1,0 +1,109 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2? family = Chakra + Petch: ital, wght @ 1.700 & display = swap');
+
+@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans + Condensado: wght @ 300 & display = swap');
+
+@import url('https://fonts.googleapis.com/css2? family = Barlow: ital, wght @ 1.100 & family = Abrir + Sans + Condensado: wght @ 300 & display = swap');
+
+:root {
+    --color01: #C4DCE8;
+    --color02: #517EB9;
+    --color03: #C7C7C7;
+    --color04: #F2F2F2;
+    --color05: #012350;
+    --fonteh1:  'Chakra Petch', sans-serif;
+    --fontep: 'Open Sans Condensed', sans-serif;
+    --fonte3: 'Barlow', sans-serif;
+    --fonte4: 'Russo One', sans-serif;
+ }
+
+body, header, h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px 10px 3px 10px;
+    box-shadow: 0px 0px 1px black;
+}
+
+header {
+    background: var(--color02);
+}
+
+h1 {
+    text-align: left;
+    font-family:monospace;
+    color: var(--color04);
+    font-size: 2.4em;
+    padding-left: 4%;
+    border-bottom-style: inset;
+    border-color: var(--color03);
+    font-family: var(--fonteh1);
+}
+
+p {
+    font-family: var(--fontep);
+}
+
+img {
+    display: flex;
+    float: left;
+    height: 400px;
+    width: 300px;
+}
+
+@media (max-Width: 800px) {
+
+header {
+    text-align: center;
+}
+
+section {
+    display: block;
+    margin: 5%;
+}
+
+h1 {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+input {
+    font-size: 1em;
+    font-weight: ;
+    background-color: var(--color04);
+    border-radius: 10px;
+}
+img {
+    display: block;
+    height: 0px;
+    width: 0px;  
+}
+
+#btAdicionar{
+    display: block;
+    margin-top: 5px;
+    background: var(--color03);
+    color: var(--color05);
+    border-radius: 10px;
+}
+
+#btUrgencia{
+    display: block;
+    margin-top: 5px;
+    background: var(--color03);
+    color: var(--color05);
+    border-radius: 10px;
+}
+
+#btAtender{    
+    display: block;
+    margin-top: 5px;
+    background: var(--color03);
+    color: var(--color05);
+    border-radius: 10px;
+}
+}
+
